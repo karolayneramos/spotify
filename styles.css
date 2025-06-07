@@ -135,8 +135,17 @@ main {
     font-size: 24px;
 
 }
-.justify-content-evenly{
-justify-content: space-evenly;}
+
+.mostrar-tudo {
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
 nav {
     margin-bottom: 10px !important;
 }
