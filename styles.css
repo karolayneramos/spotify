@@ -66,6 +66,8 @@ main {
     max-height: 85vh;
     overflow-y: auto;
     overflow-x: hidden;
+        border-radius: 15px;
+
 }
 
 .sidebar {
@@ -78,6 +80,11 @@ main {
     margin-bottom: 25px;
     background-color: #121212;
     height: 85vh;
+    border-radius: 15px;
+}
+
+.sidebar-container {
+    height: 40vh;
     overflow-y: auto;
 }
 
@@ -198,7 +205,8 @@ nav {
     width: 100%;
 
 }
-
+.nav-podcast{
+margin-top: 20px;}
 .d-flex {
     display: flex;
 }
