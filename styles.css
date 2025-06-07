@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #B7B3B6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.titulo-sidebar {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.subtitulo-sidebar {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 17px 20px;
+    border: none;
+    margin-top: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.me-10 {
+    margin-right: 10px;
+}
+
+.searchbar {
+    background-color: #242424;
+    border: none;
+    width: 400px;
+    height: 35px;
+    border-radius: 25px;
+    padding: 0 15px;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.fa-home {
+    background-color: #242424;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+
+main {
+    background-color: #121212;
+    padding: 24px;
+    margin-left: 15px;
+    width: 75%;
+}
+
+.sidebar {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 25px;
+    background-color: #121212;
+
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.musicas,
+.artistas {
+    gap: 20px;
+}
+
+.card-musicas {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 250px;
+}
+
+.card-titulo {
+    color: #fff;
+    font-size: 20px;
+}
+
+.card-subtitulo {
+    color: #B7B3B6;
+    font-size: 17px;
+}
+
+.card-artistas {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 250px;
+}
+
+.card-artistas img {
+    border-radius: 50%;
+}
+
+.card-artistas-titulo {
+    color: #fff;
+    font-size: 20px;
+}
+
+.card-artistas-subtitulo {
+    color: #B7B3B6;
+    font-size: 17px;
+}
+
+.nav-logo i {
+    font-size: 24px;
+
+}
+
+.esquerda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.font-size25 {
+    font-size: 25px;
+}
+
+.font-size20 {
+    font-size: 20px;
+}
+
+.direita {
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-library {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.nav-library i,
+.nav-library p {
+
+    font-size: 14px;
+    color: #B7B3B6;
+    cursor: pointer;
+}
+
+.nav-playlist,
+.nav-podcast {
+    background-color: #242424;
+    padding: 16px;
+    border-radius: 8px;
+    width: 100%;
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+.w-35 {
+    width: 35px;
+    font-size: 35px;
+}
+
+.h-35 {
+    height: 35px;
+    font-size: 35px;
+
+}
+
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
